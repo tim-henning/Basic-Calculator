@@ -14,6 +14,14 @@
     border-radius: 10px 10px 0px 0px;
 }
 
+.display-text {
+    text-align: right;
+    color: white;
+    font-size: 3rem;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+
 /* Create grid for buttons */
 .button-container {
     display: grid;
