@@ -1,0 +1,71 @@
+/* This is the calculators outer body */
+.calculator-body {
+    width: 370px;
+    height: 400px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/* Set the text field */
+.display-field {
+    width: 370px;
+    height: 20%;
+    background-color: #606060;
+    border-radius: 10px 10px 0px 0px;
+}
+
+/* Create grid for buttons */
+.button-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 370px;
+    height: 80%;
+}
+
+/* Design the buttons */
+.btn {
+    background-color: #606060;
+    border: 0.1px solid gray;
+    width: 100%;
+    height: 100%;
+}
+
+.ftn {
+    background-color: #FF8351;
+}
+
+.big {
+    grid-column: span 2;
+    border-radius: 0px 0px 0px 10px;
+}
+
+.rnd {
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* Add hover behavior */
+.btn:hover {
+    background-color: #929292;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #929292;
+    border: 1px solid white;
+}
+
+.ftn:hover {
+    background-color: white;
+}
+
+.ftn:active {
+    border: 1px solid white;
+}
+
+.equal {
+    background-color: white;
+}
+
+.equal:hover {
+    background-color: #FF8351;
+}
